@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |s|
 s.name          = "AliPaySDK_SZ"
-s.version       = "15.4.1"
-s.summary       = "支付宝官方SDK(15.4.1)"
+s.version       = "15.5.5"
+s.summary       = "支付宝官方SDK(15.5.5)"
 s.description   = <<-DESC
-支付宝官方SDK(15.4.1)，方便大家使用cocoapods导入
+支付宝官方SDK(15.5.5)，方便大家使用cocoapods导入，适用于集成了百川sdk，出现UTDID冲突
 DESC
 s.homepage      = "https://github.com/StenpZ/AliPaySDK_SZ.git"
 s.license       = "MIT"
