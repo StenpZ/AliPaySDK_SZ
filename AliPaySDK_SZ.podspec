@@ -13,7 +13,7 @@ s.author        = { "StenpZ" => "zhouc520@foxmail.com" }
 s.source        = { :git => "https://github.com/StenpZ/AliPaySDK_SZ.git", :tag => "#{s.version}" }
 
 s.resource      = "AlipaySDK/AlipaySDK.bundle"
-s.frameworks    = "Foundation", "UIKit", "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
+s.frameworks    = "Foundation", "UIKit", "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "CFNetwork", "CoreMotion"
 s.libraries     = "z", "c++"
 s.vendored_frameworks = "AlipaySDK/AlipaySDK.framework"
 
