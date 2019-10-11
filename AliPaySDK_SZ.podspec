@@ -16,6 +16,7 @@ s.resource      = "AlipaySDK/AlipaySDK.bundle"
 s.frameworks    = "Foundation", "UIKit", "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "CFNetwork", "CoreMotion"
 s.libraries     = "z", "c++"
 s.vendored_frameworks = "AlipaySDK/AlipaySDK.framework"
+s.dependency 'SZUTDID', '~> 1.0'
 
 s.platform      = :ios,'7.0'
 s.requires_arc  = true
